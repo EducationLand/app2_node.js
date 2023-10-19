@@ -2,7 +2,7 @@ name: deploy to lambda app2
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy_source:
